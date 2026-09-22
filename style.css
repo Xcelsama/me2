@@ -19,16 +19,27 @@
 .main h1{
     font-family: "Sacramento", cursive;
     color:white;
-   -webkit-text-stroke : 1px black;
+   -webkit-text-stroke : 10px black;
+   paint-order: stroke fill;
    font-size:120px;
 }
 .main p{
+    font-family: "Raleway",sans-serif;
+    font-size:25px;
     position: absolute;
     bottom:20px;
     right:20px;
+     color:white;
+   -webkit-text-stroke : 3px black;
+   paint-order: stroke fill;
+
 
 }
 
+.main p .dev {
+    text-decoration:underline;
+    text-decoration-color:white;
+}
 
 
 
@@ -41,9 +52,9 @@
 
     }
   .main h1{
-    font-size:80px;
+    font-size:92px;
   }
   .main p{
-    font-size:20px;;
+    font-size:30px;;
   }
 }
